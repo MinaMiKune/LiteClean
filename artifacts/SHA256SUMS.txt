@@ -1,0 +1,5 @@
+LiteClean 1.0.0 win-x64 framework-dependent
+exe sha256: d86eb9af8183b93b54b8cac20f73aa7b22eee161e0e45a2f9a4d2f10c18a1e50
+zip sha256: 3e77d98dc6a3831708ce3e11abed62d3a452335cb447cbe00096477b7145a1ec
+zip bytes: 221893
+published-utc: 2026-10-28T15:38:39.7795692Z

@@ -1,0 +1,40 @@
+LiteClean benchmark
+OS: Microsoft Windows NT 10.0.26200.0
+Runtime: .NET 10.0.12
+CPU: 6 logical processors
+Root: C:\Users\Administrator\AppData\Local\Temp\dsh-42r3yP\LiteClean.Tests\1fa1b366188144ce8c14afde8edb7442\root
+Parameters: small-files=20000, big-files=40, directories~500, deep=120
+
+generated: files=20045 bytes=52185600 duration=22.7s
+file-system files: 20045
+
+SCAN
+  duration_ms: 4312
+  files: 20045
+  directories: 623
+  bytes: 52185600
+  skipped: 0
+  completed: True
+  files_per_sec: 4649
+  working_set_before_mb: 42.1
+  working_set_after_mb: 53.7
+  process_peak_working_set_mb: 55.8
+  managed_heap_before_mb: 0.1
+  managed_heap_after_mb: 10.5
+
+CLEAN
+  duration_ms: 12393
+  deleted_files: 20045
+  deleted_directories: 623
+  deleted_bytes: 52185600
+  skipped: 0
+  failed: 0
+  canceled: False
+  completed: True
+  files_per_sec: 1617
+  working_set_after_mb: 62.3
+  process_peak_working_set_mb: 62.3
+  remaining_files: 0
+  root_exists: True
+
+BENCHMARK RESULT: PASS

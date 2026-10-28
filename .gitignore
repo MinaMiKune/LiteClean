@@ -1,0 +1,12 @@
+bin/
+obj/
+artifacts/publish/
+artifacts/*.zip
+artifacts/publish-probe*/
+artifacts/ui-*.png
+artifacts/ui-pid.txt
+.build-home/
+.build-packages/
+.vs/
+*.user
+TestResults/
